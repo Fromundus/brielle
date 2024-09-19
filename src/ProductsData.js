@@ -1,0 +1,172 @@
+const data = [
+    {
+        id: 1,
+        name: "Fried Noodles",
+        price: "25.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://i0.wp.com/whattoeatph.com/wp-content/uploads/2021/10/DSC_2265.jpg?resize=870%2C773&ssl=1",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 2,
+        name: "Spaghetti",
+        price: "25.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://healthyfitnessmeals.com/wp-content/uploads/2020/05/One-pot-chicken-spaghetti-4.jpg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 3,
+        name: "Porridge",
+        price: "15.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://images.deliveryhero.io/image/fd-ph/Products/8114044.jpg?width=%s",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 4,
+        name: "Egg",
+        price: "15.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://media.istockphoto.com/id/961697202/photo/boiled-egg-cutout-and-raw-egg-with-shell-on-wooden-background.jpg?s=612x612&w=0&k=20&c=aWNEeImV3C03oJH6gPVtecfRirlHYo2QoPPyddlH5Bg=",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 5,
+        name: "Steamed Cake",
+        price: "5.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://i.ytimg.com/vi/YrrSTaUhCn8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDjImlUMn-0WWgSSupKKVu58GXKgA",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 6,
+        name: "Burger",
+        price: "25.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://blacktap.com/wp-content/uploads/2024/03/best-food-delivery-times-square-new-york-city-restaurant-meal-deliveries-1.jpg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 10,
+        name: "Cobra",
+        price: "30.00",
+        category: "Drink",
+        subcategory: "",
+        description: "",
+        image: "https://admin.merrymartwholesale.com/storage/upload/assets/9UjGFTvDNqLnlG3wIARh3O6EOPlxa530J0RMNNMC.jpg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 11,
+        name: "Coke",
+        price: "80.00",
+        category: "Drink",
+        subcategory: "",
+        description: "",
+        image: "https://joysputocake.com/cdn/shop/products/Coke.jpg?v=1617678361",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 12,
+        name: "Sprite",
+        price: "80.00",
+        category: "Drink",
+        subcategory: "",
+        description: "",
+        image: "https://libertycokedelivery.com/cdn/shop/products/Sprite_1L-1_2048x.jpg?v=1666116206",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 13,
+        name: "Royal",
+        price: "80.00",
+        category: "Drink",
+        subcategory: "",
+        description: "",
+        image: "https://primomart.ph/cdn/shop/products/image_f583cf91-4c71-4eb8-bb9b-be8a1e41f2cd_500x500.jpg?v=1589210205",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 14,
+        name: "Rice",
+        price: "15.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://static01.nyt.com/images/2018/02/21/dining/00RICEGUIDE8/00RICEGUIDE8-superJumbo.jpg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 15,
+        name: "Grilled Chicken",
+        price: "120.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://pinoybites.com/wp-content/uploads/2021/08/File_000-22-scaled.jpeg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 20,
+        name: "Siomai",
+        price: "5.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://www.recipesbynora.com/wp-content/uploads/2023/10/Siomai-with-Pork-and-Shrimp-featured-image.jpg",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      },
+      {
+        id: 21,
+        name: "Siopao",
+        price: "30.00",
+        category: "Food",
+        subcategory: "",
+        description: "",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/84/Steamed-Pork-Buns-BBQ_Siopao-Asado-Recipe.webp",
+        status: "available",
+        created_at: "2024-09-09T01:58:40.000000Z",
+        updated_at: "2024-09-09T01:58:40.000000Z"
+      }
+    ]
+
+export default data;
